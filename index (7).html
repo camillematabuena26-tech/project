@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camille Website</title>
+    <link rel="stylesheet" href="styes.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">Camille<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Activities</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button id="themeToggle" class="theme-button" type="button"
+            aria-label="Toggle dark mode">🌙</button>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="home section">
+        <div class="home-text">
+            <p class="greeting">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Camille</span></h1>
+            <h2>BSIT Student</h2>
+            <p>
+                Welcome to my personal website! This is where you can
+                learn more about me, my skills, and my school activities.
+            </p>
+            <a href="#about" class="main-button">Get to Know Me</a>
+        </div>
+
+        <div class="home-image">
+            <img src="camii.jpg"
+                 alt="Camille's profile photo"
+                 class="profile-photo">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-card">
+            <p>
+                Hello! My name is Camille, and I am a Bachelor of Science
+                in Information Technology student at Bestlink College
+                of the Philippines.
+            </p>
+
+            <p>
+                I am learning about web development, coding, and computer
+                technology. I enjoy creative activities and learning
+                new things that can help me improve my skills.
+            </p>
+
+            <div id="moreAbout" class="hidden">
+                <p>
+                    I made this portfolio to introduce myself and collect
+                    my school activities in one website. I hope to learn
+                    more about technology and become better at creating
+                    useful and creative websites.
+                </p>
+            </div>
+
+            <button id="readMoreBtn" class="main-button" type="button">
+                Read More
+            </button>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-description">
+            Here are some of the skills I use and continue to improve.
+        </p>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>HTML</h3>
+                <p>Creating the structure of web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Designing and styling websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>JavaScript</h3>
+                <p>Adding interactive features to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🖌️</div>
+                <h3>Canva</h3>
+                <p>Making simple and creative designs.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">📄</div>
+                <h3>Microsoft Office</h3>
+                <p>Creating documents and presentations.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>Google Workspace</h3>
+                <p>Using online tools for school activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">My Activities</h2>
+        <p class="section-description">
+            My school activities from prelims to finals.
+            Click a button to open an activity.
+        </p>
+
+        <div class="projects-container">
+           
+             <article class="project-card">
+                <span class="project-number"> </span>
+                <h3>Activity </h3>
+                <p>Things I Like The Most</p>
+                <a href="https://camillematabuena26-tech.github.io/thing-i-like-the-most/"
+                   target="_blank" rel="noopener noreferrer"
+                   class="main-button">View Activity ↗</a>
+            </article>
+
+            <article class="project-card">
+                <span class="project-number"></span>
+                <h3>Activity</h3>
+                <p>My Website</p>
+                <a href="https://camillematabuena26-tech.github.io/camill/"
+                   target="_blank" rel="noopener noreferrer"
+                   class="main-button">View Activity ↗</a>
+            </article>
+
+            <article class="project-card">
+                <span class="project-number"></span>
+                <h3>Activity</h3>
+                <p>My Favorite Song</p>
+                <a href="https://camillematabuena26-tech.github.io/song/"
+                   target="_blank" rel="noopener noreferrer"
+                   class="main-button">View Activity ↗</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-description">
+            Feel free to contact me using the details below.
+        </p>
+
+        <div class="contact-card">
+            <div class="contact-item">
+                <span>✉️</span>
+                <div>
+                    <h3>Email</h3>
+                    <p>camillematabuena26@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span>📱</span>
+                <div>
+                    <h3>Phone</h3>
+                    <p>09912425084</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span>🎓</span>
+                <div>
+                    <h3>School</h3>
+                    <p>Bestlink College of the Philippines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <a href="#home" class="back-to-top">Back to Top ↑</a>
+    <p>© <span id="currentYear"></span> Camille Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
